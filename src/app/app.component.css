@@ -1,0 +1,10 @@
+ul{
+  text-decoration: none;
+
+
+}
+li{
+  color: #913;
+  text-transform: capitalize;
+  padding: 10px;
+}
