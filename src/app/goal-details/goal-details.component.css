@@ -1,0 +1,35 @@
+button{
+  padding: 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-color: red;
+  border-radius: 5px;
+  margin-top: auto;
+  display: inline-block;
+
+}
+button:hover{
+  opacity: 0.8;
+}
+.plus{
+  background-color: #6342;
+  width: 50%;
+}
+.plus:hover{
+  zoom:105%;
+  transition: 700ms;
+  box-shadow: 3px 3px 5px black, -3px 0 5px black;
+  margin: 5px;
+
+
+}
+.light{
+    background-color: #5876;
+}
+hr{
+  border-radius: 5px;
+  border-color: blue;
+  border-width: thin;
+
+}

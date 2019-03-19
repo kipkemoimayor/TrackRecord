@@ -1,0 +1,24 @@
+button{
+  padding: 10px;
+  background-color: #8843;
+  color: #120;
+  border: none;
+  border-color: red;
+  border-radius: 5px;
+}
+button:hover{
+  opacity: 0.8;
+}
+.list li{
+  margin: auto;
+}
+.list li:hover{
+  color: #3584;
+  cursor: pointer;
+  text-decoration: none;
+
+}
+span{
+  color:#028;
+  text-decoration: underline;
+}

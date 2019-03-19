@@ -1,10 +1,21 @@
-ul{
-  text-decoration: none;
-
-
-}
-li{
-  color: #913;
+h1{
+  font-family: Courier ;
+  font-weight: 400;
   text-transform: capitalize;
-  padding: 10px;
+  text-shadow: 1px 1px 5px black;
+  color: #987;
 }
+.card{
+  margin: auto;
+  width: 50%;
+  /* background: rgba(0, 0, 0, 0.4); */
+  height: auto;
+  box-shadow: 3px 3px 5px black;
+  -webkit-shadow:px 3px 5px black;
+}
+/* .card:hover{
+  -webkit-transform:rotate(2deg);
+  -webkit-transform:rotate(-3deg);
+  transition: 300ms;
+
+} */

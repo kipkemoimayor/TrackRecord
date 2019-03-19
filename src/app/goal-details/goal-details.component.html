@@ -1,1 +1,10 @@
-<p>{{goal.description}}</p>
+<div class="plus">
+  <p>{{goal.description}}</p>
+  <p>This Objective should be completed in {{ goal.compleDate|dateCount}} days </p>
+
+  <div class="light">
+    <hr>
+    <button (click)="goalComplete(true)" type="button" name="button">Complete</button>
+  </div>
+
+</div>

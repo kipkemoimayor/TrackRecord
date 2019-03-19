@@ -1,8 +1,9 @@
 <ul>
   <ul>
-    <div *ngFor='let goal of goals' class="">
-      <li >{{goal.name}}</li>
-      <app-goal-details [goal]='goal'></app-goal-details>
+    <div *ngFor='let goal of goals;let i=index' class="list">
+      <li appStrikethrough >{{goal.name}} due on <span>{{goal.compleDate|date:'fullDate'|uppercase}}</span> </li>
+      <button (click)='toogleDetails(i)' name="button">show details</button>
+      <app-goal-details *ngIf="goal.showDescription" [goal]='goal' (isComplete)='completeGoal($event,i)'></app-goal-details>
     </div>
 
 
